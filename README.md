@@ -1,16 +1,6 @@
 # SHELL
-## written by ✨
+## written by ron yacobovich and yuval musseri
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/RazElbaz"><br /><sub><b>Raz Elbaz</b></sub></a><br /> </td>
-  </tr>
-</table>
-
-</table>
 
 # Introduction:
 The main goal of this assignment is to create a shell.

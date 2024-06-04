@@ -2,12 +2,12 @@
 
 all: myshell
 
-myshell: new.o linkedlist.o
-	gcc -o myshell new.o linkedlist.o
+myshell: myshell.o linkedlist.o
+	gcc -o myshell myshell.o linkedlist.o
 
 
-myshell.o: new.c linkedlist.h
-	gcc -c new.c
+myshell.o: myshell.c linkedlist.h
+	gcc -c myshell.c
 
 
 linkedlist.o: linkedlist.c

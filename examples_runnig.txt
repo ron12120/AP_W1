@@ -1,0 +1,71 @@
+yuvit256@Linux:~/AP_W1-main$ ./myshell
+hello: date >> myfile
+hello: cat myfile
+Tue Jun  4 01:59:23 PM EEST 2024
+hello: date -u >> myfile
+hello: cat myfile
+Tue Jun  4 01:59:23 PM EEST 2024
+Tue Jun  4 10:59:53 AM UTC 2024
+hello: wc -l < myfile
+2
+hello: prompt = hi
+hi: mkdir mydir
+hi: cd mydir
+hi: pwd
+/home/yuvit256/AP_W1-main/mydir
+hi: touch file1 file2 file3
+hi: ls
+file1  file2  file3
+hi: !!
+file1  file2  file3
+hi: echo abc xyz
+abc xyz 
+hi: ls
+file1  file2  file3
+hi: echo $?
+0
+hi: ls no_such_file
+ls: cannot access 'no_such_file': No such file or directory
+hi: ^C
+You typed Control-C!
+hi: cat > colors.txt
+blue
+black
+red
+red
+green
+blue
+green
+red
+red
+blue
+hi: cat colors.txt
+blue
+black
+red
+red
+green
+blue
+green
+red
+red
+blue
+hi: cat colors.txt | cat | cat | cat
+blue
+black
+red
+red
+green
+blue
+green
+red
+red
+blue
+hi: sort colors.txt | uniq -c | sort -r | head -3
+      4 red
+      3 blue
+      2 green
+hi: quit
+yuvit256@Linux:~/AP_W1-main$ 
+
+

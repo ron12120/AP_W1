@@ -1,0 +1,169 @@
+yuvit256@Linux:~/AP_W1-main$ ./myshell 
+hello: ls -l
+total 164
+-rw-rw-r-- 1 yuvit256 yuvit256   943 Jun  4 14:08 examples_runnig.txt
+-rw-rw-r-- 1 yuvit256 yuvit256  1074 Jun  4 12:17 key.c
+-rw-rw-r-- 1 yuvit256 yuvit256  1899 Jun  4 12:17 linkedlist.c
+-rw-rw-r-- 1 yuvit256 yuvit256   589 Jun  4 12:17 linkedlist.h
+-rw-rw-r-- 1 yuvit256 yuvit256  3032 Jun  4 13:58 linkedlist.o
+-rw-rw-r-- 1 yuvit256 yuvit256   235 Jun  4 13:57 makefile
+drwxrwxr-x 2 yuvit256 yuvit256  4096 Jun  4 14:02 mydir
+-rw-rw---- 1 yuvit256 yuvit256    65 Jun  4 13:59 myfile
+-rwxrwxr-x 1 yuvit256 yuvit256 22920 Jun  4 13:58 myshell
+-rw-rw-r-- 1 yuvit256 yuvit256 13854 Jun  4 12:17 myshell.c
+-rw-rw-r-- 1 yuvit256 yuvit256 20768 Jun  4 13:57 myshell.o
+-rw-rw-r-- 1 yuvit256 yuvit256   495 Jun  4 12:17 README.md
+-rw-rw-r-- 1 yuvit256 yuvit256  1443 Jun  4 12:17 shell2.c
+-rw-rw-r-- 1 yuvit256 yuvit256  2687 Jun  4 12:17 shell3.c
+-rw-rw-r-- 1 yuvit256 yuvit256 54501 Jun  4 12:17 task1.pdf
+hello: ls -l > file1
+hello: cat file1
+total 164
+-rw-rw-r-- 1 yuvit256 yuvit256   943 Jun  4 14:08 examples_runnig.txt
+-rw-rw---- 1 yuvit256 yuvit256     0 Jun  4 14:14 file1
+-rw-rw-r-- 1 yuvit256 yuvit256  1074 Jun  4 12:17 key.c
+-rw-rw-r-- 1 yuvit256 yuvit256  1899 Jun  4 12:17 linkedlist.c
+-rw-rw-r-- 1 yuvit256 yuvit256   589 Jun  4 12:17 linkedlist.h
+-rw-rw-r-- 1 yuvit256 yuvit256  3032 Jun  4 13:58 linkedlist.o
+-rw-rw-r-- 1 yuvit256 yuvit256   235 Jun  4 13:57 makefile
+drwxrwxr-x 2 yuvit256 yuvit256  4096 Jun  4 14:02 mydir
+-rw-rw---- 1 yuvit256 yuvit256    65 Jun  4 13:59 myfile
+-rwxrwxr-x 1 yuvit256 yuvit256 22920 Jun  4 13:58 myshell
+-rw-rw-r-- 1 yuvit256 yuvit256 13854 Jun  4 12:17 myshell.c
+-rw-rw-r-- 1 yuvit256 yuvit256 20768 Jun  4 13:57 myshell.o
+-rw-rw-r-- 1 yuvit256 yuvit256   495 Jun  4 12:17 README.md
+-rw-rw-r-- 1 yuvit256 yuvit256  1443 Jun  4 12:17 shell2.c
+-rw-rw-r-- 1 yuvit256 yuvit256  2687 Jun  4 12:17 shell3.c
+-rw-rw-r-- 1 yuvit256 yuvit256 54501 Jun  4 12:17 task1.pdf
+hello: cat abc >> file1
+cat: abc: No such file or directory
+hello: ls -l >> file1
+hello: cat file1
+total 164
+-rw-rw-r-- 1 yuvit256 yuvit256   943 Jun  4 14:08 examples_runnig.txt
+-rw-rw---- 1 yuvit256 yuvit256     0 Jun  4 14:14 file1
+-rw-rw-r-- 1 yuvit256 yuvit256  1074 Jun  4 12:17 key.c
+-rw-rw-r-- 1 yuvit256 yuvit256  1899 Jun  4 12:17 linkedlist.c
+-rw-rw-r-- 1 yuvit256 yuvit256   589 Jun  4 12:17 linkedlist.h
+-rw-rw-r-- 1 yuvit256 yuvit256  3032 Jun  4 13:58 linkedlist.o
+-rw-rw-r-- 1 yuvit256 yuvit256   235 Jun  4 13:57 makefile
+drwxrwxr-x 2 yuvit256 yuvit256  4096 Jun  4 14:02 mydir
+-rw-rw---- 1 yuvit256 yuvit256    65 Jun  4 13:59 myfile
+-rwxrwxr-x 1 yuvit256 yuvit256 22920 Jun  4 13:58 myshell
+-rw-rw-r-- 1 yuvit256 yuvit256 13854 Jun  4 12:17 myshell.c
+-rw-rw-r-- 1 yuvit256 yuvit256 20768 Jun  4 13:57 myshell.o
+-rw-rw-r-- 1 yuvit256 yuvit256   495 Jun  4 12:17 README.md
+-rw-rw-r-- 1 yuvit256 yuvit256  1443 Jun  4 12:17 shell2.c
+-rw-rw-r-- 1 yuvit256 yuvit256  2687 Jun  4 12:17 shell3.c
+-rw-rw-r-- 1 yuvit256 yuvit256 54501 Jun  4 12:17 task1.pdf
+total 168
+-rw-rw-r-- 1 yuvit256 yuvit256   943 Jun  4 14:08 examples_runnig.txt
+-rw-rw---- 1 yuvit256 yuvit256   969 Jun  4 14:14 file1
+-rw-rw-r-- 1 yuvit256 yuvit256  1074 Jun  4 12:17 key.c
+-rw-rw-r-- 1 yuvit256 yuvit256  1899 Jun  4 12:17 linkedlist.c
+-rw-rw-r-- 1 yuvit256 yuvit256   589 Jun  4 12:17 linkedlist.h
+-rw-rw-r-- 1 yuvit256 yuvit256  3032 Jun  4 13:58 linkedlist.o
+-rw-rw-r-- 1 yuvit256 yuvit256   235 Jun  4 13:57 makefile
+drwxrwxr-x 2 yuvit256 yuvit256  4096 Jun  4 14:02 mydir
+-rw-rw---- 1 yuvit256 yuvit256    65 Jun  4 13:59 myfile
+-rwxrwxr-x 1 yuvit256 yuvit256 22920 Jun  4 13:58 myshell
+-rw-rw-r-- 1 yuvit256 yuvit256 13854 Jun  4 12:17 myshell.c
+-rw-rw-r-- 1 yuvit256 yuvit256 20768 Jun  4 13:57 myshell.o
+-rw-rw-r-- 1 yuvit256 yuvit256   495 Jun  4 12:17 README.md
+-rw-rw-r-- 1 yuvit256 yuvit256  1443 Jun  4 12:17 shell2.c
+-rw-rw-r-- 1 yuvit256 yuvit256  2687 Jun  4 12:17 shell3.c
+-rw-rw-r-- 1 yuvit256 yuvit256 54501 Jun  4 12:17 task1.pdf
+hello: prompt = myprompt
+myprompt: echo xyz
+xyz 
+myprompt: echo $?
+0
+myprompt: cd mydir
+myprompt: pwd
+/home/yuvit256/AP_W1-main/mydir
+myprompt: !!
+/home/yuvit256/AP_W1-main/mydir
+myprompt: ^C
+You typed Control-C!
+myprompt: cd ..
+myprompt: pwd
+/home/yuvit256/AP_W1-main
+myprompt: $student = ron   
+myprompt: echo student
+student 
+myprompt: echo $student
+ron 
+myprompt: read name
+yuval
+myprompt: p 
+Unknown command: p
+myprompt: echo $name
+yuval 
+myprompt: if date | grep Sun
+then
+	ls -l
+else
+	echo "yuval and ron"
+fi
+yuval and ron
+myprompt: echo date
+date 
+myprompt: date
+Tue Jun  4 02:20:10 PM EEST 2024
+          if date | grep Sun
+then
+	ls -l
+else
+	echo "yuval and ron"
+fi
+myprompt: ^C
+You typed Control-C!
+myprompt: cat colors.txt
+cat: colors.txt: No such file or directory
+myprompt: pwd
+/home/yuvit256/AP_W1-main
+myprompt: cd mydir
+myprompt: ls
+colors.txt  file1  file2  file3
+myprompt: cat colors.txt
+blue
+black
+red
+red
+green
+blue
+green
+red
+red
+blue
+myprompt: cat colors.txt | head -n 5
+blue
+black
+red
+red
+green
+myprompt: ^Ct colors.txt | head -n 5
+You typed Control-C!
+myprompt: cat colors.txt | tail -n 7
+red
+green
+blue
+green
+red
+red
+blue
+myprompt: sort colors.txt | uniq -c | sort -r | head -n 1
+      4 red
+myprompt: sort colors.txt | uniq -c | sort -r | tail -n 1
+      1 black
+myprompt: wc -l < colors.txt
+10
+myprompt: ls no_file    
+ls: cannot access 'no_file': No such file or directory
+myprompt: $
+Unknown command: $
+myprompt: echo $?
+256
+myprompt: quit
+yuvit256@Linux:~/AP_W1-main$ 
+

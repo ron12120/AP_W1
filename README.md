@@ -5,16 +5,8 @@
 # Introduction:
 The main goal of this assignment is to create a shell.
 
-# Explanation of the codes found in the project:
-
-In the assignment folder we received there were three files for the shell program:  
-•shell1.c - prints a cursor and runs commands with arguments.  
-•shell2.c – adds routing to the file.  
-•shell3.c - pipe adds   
-•key.c  
-
-### The codes I wrote to accomplish the task:
-•**new.c**  
+### our shell is:
+•**myshell.c**  
 The program that implements the assignment  
 •**Examples_to_run.txt**  
 A text file that contains examples that can be run in the program.  

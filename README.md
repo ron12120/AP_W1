@@ -8,7 +8,7 @@ The main goal of this assignment is to create a shell.
 ### our shell is:
 •**myshell.c**  
 The program that implements the assignment    
-•**Examples_from_running_my_program.txt**  
+•**Examples_running.txt**  
 A text file that contains the teminal after the runing.
 
 •**linkedlist.h and linkedlist.c**  

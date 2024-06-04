@@ -9,7 +9,9 @@ The main goal of this assignment is to create a shell.
 •**myshell.c**  
 The program that implements the assignment    
 •**Examples_running.txt**  
-A text file that contains the teminal after the runing.
+A text file that contains the teminal after runing the example thet we get.
+•**our_example.txt** 
+A text file that contains the terminal after runing our example.
 
 •**linkedlist.h and linkedlist.c**  
 •**makefile**   
